@@ -1,7 +1,6 @@
 FROM php:8.2-apache
 
-RUN a2dismod mpm_event
-RUN a2enmod mpm_prefork
+RUN rm -f /etc/apache2/mods-enabled/mpm_event.load && rm -f /etc/apache2/mods-enabled/mpm_event.conf
 
 RUN docker-php-ext-install pdo pdo_mysql
 
