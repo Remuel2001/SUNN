@@ -1,0 +1,21 @@
+{
+  "name": "SUNN Faculty Monitoring",
+  "short_name": "SUNN",
+  "start_url": "/login.php",
+  "display": "standalone",
+  "background_color": "#4f46e5",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/uploads/brand/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/uploads/brand/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
